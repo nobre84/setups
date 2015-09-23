@@ -12,10 +12,6 @@ This repository shows you best practice on how to use `fastlane` in your project
 default_platform :ios
 
 platform :ios do
-  before_all do
-    # optional: prepare your project here, e.g. cocoapods or carthage
-  end
-
   desc "Runs all the tests"
   lane :test do
     xctool
@@ -23,16 +19,13 @@ platform :ios do
 
   desc "Build and distribute build to Crashlytics"
   lane :beta do
-    # Build and sign your app
     gym(scheme: "Release")
-
-    # Distribute via Crashlytics
     crashlytics(crashlytics_path: "./Crashlytics.framework/submit")
   end
 end
 ```
 
-Additionally you'll have to store your keys somewhere, take a look at the [keys.md](Keys Guide).
+Additionally you'll have to store your keys somewhere, take a look at the [Keys Guide](keys.md).
 
 ## Advanced Setup
 
@@ -88,4 +81,4 @@ platform :ios do
 end
 ```
 
-Additionally you'll have to store your keys somewhere, take a look at the [keys.md](Keys Guide).
+Additionally you'll have to store your keys somewhere, take a look at the [Keys Guide](keys.md).
