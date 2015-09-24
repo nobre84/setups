@@ -47,4 +47,21 @@ If you use a different shell (e.g. `zshell`) you'll need to edit `~/.zshrc` inst
 - The bash profile isn't automatically loaded by some CI-systems like Jenkins
 
 
+### [dotenv](https://github.com/bkeepers/dotenv)
 
+You can store a default configuration in `.env.default` which will be loaded by `fastlane` automatically.
+
+```sh
+SLACK_URL="https://hooks.slack.com/services/T03NA19Q5/..."
+CRASHLYTICS_API_TOKEN="123abc"
+```
+
+You might want different configurations depending on your environment.
+
+```
+fastlane beta --env development
+```
+
+and store the configuration in `.env.development` with all keys for the development environment.
+
+Install `sudo gem install dotenv` or add `dotenv` to your `Gemfile`. More information about the [recommend way to install gems](https://guides.cocoapods.org/using/a-gemfile.html).
