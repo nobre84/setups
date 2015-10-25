@@ -2,6 +2,12 @@
 
 This repository shows you best practice on how to use `fastlane` in your project.
 
+## Installing fastlane
+
+The easiest way to install `fastlane` on a new Mac is to run `sudo gem install fastlane --verbose`. 
+
+It is recommended to use the [sudo-less gem installation](https://guides.cocoapods.org/using/getting-started.html#sudo-less-installation). 
+
 ## Standard Setup
 
 - Run tests
@@ -25,7 +31,7 @@ platform :ios do
 end
 ```
 
-Additionally you'll have to store your keys somewhere, take a look at the [Keys Guide](keys.md).
+Additionally you'll have to store your keys somewhere, take a look at the [Keys Guide](Keys.md).
 
 ## Advanced Setup
 
@@ -81,4 +87,4 @@ platform :ios do
 end
 ```
 
-Additionally you'll have to store your keys somewhere, take a look at the [Keys Guide](keys.md).
+Additionally you'll have to store your keys somewhere, take a look at the [Keys Guide](Keys.md).
