@@ -88,3 +88,6 @@ end
 ```
 
 Additionally you'll have to store your keys somewhere, take a look at the [Keys Guide](Keys.md).
+
+# Code of Conduct
+Help us keep `fastlane` open and inclusive. Please read and follow our [Code of Conduct](https://github.com/fastlane/code-of-conduct).
