@@ -26,7 +26,7 @@ platform :ios do
   desc "Build and distribute build to Crashlytics"
   lane :beta do
     gym(scheme: "Release")
-    crashlytics(crashlytics_path: "./Crashlytics.framework/submit")
+    crashlytics(crashlytics_path: "./Crashlytics.framework/")
   end
 end
 ```
