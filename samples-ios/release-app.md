@@ -24,6 +24,6 @@ platform :ios do
 end
 ```
 
-Run `fastlane deploy` to execute the lane.
+Run `fastlane ios deploy` to execute the lane.
 
 To get the full list of options for each action, run `fastlane action action_name`, eg. `fastlane action gym` or `fastlane action deliver`.

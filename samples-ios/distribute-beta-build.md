@@ -39,6 +39,6 @@ platform :ios do
 end
 ```
 
-Run `fastlane beta` to execute the lane.
+Run `fastlane ios beta` to execute the lane.
 
 To get the full list of options for each action, run `fastlane action action_name`, eg. `fastlane action crashlytics` or `fastlane action gym`.
