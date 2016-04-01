@@ -50,6 +50,6 @@ end
 
 Then, open the fastlane/Snapfile in your preferred text editor, change the syntax highlighting to Ruby, and change the devices and [languages](https://github.com/fastlane/fastlane/tree/master/snapshot#available-language-codes) that you want `snapshot` to use.
 
-Run `fastlane screenshots` to execute the lane. By default, screenshots will be generated in the fastlane/screenshots directory.
+Run `fastlane ios screenshots` to execute the lane. By default, screenshots will be generated in the fastlane/screenshots directory.
 
 To get the full list of options for the `snapshot` action, run `fastlane action snapshot`.
