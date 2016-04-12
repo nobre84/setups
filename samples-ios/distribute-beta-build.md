@@ -23,6 +23,8 @@ default_platform :ios
 
 platform :ios do
   lane :beta do
+    cert
+    sigh
     gym
     crashlytics(
       api_token: "...",
