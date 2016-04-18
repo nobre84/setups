@@ -30,12 +30,7 @@ platform :ios do
       api_token: "...",
       build_secret: "...",
       groups: "qa-team",
-      notes_path: "./release-notes.txt"
-      # ipa_path: "..." Path to your IPA file. Optional if you use the `gym` or `xcodebuild` action.
-      # crashlytics_path: "..." Path to the submit binary in the Crashlytics bundle (default: './Crashlytics.framework')
-      # emails: "..." Pass email addresses of testers, separated by commas
-      # notifications: "..." Crashlytics notification option (true/false) (default: 'true')
-      # debug: "..." Crashlytics debug option (true/false)
+      notes: "Automatic iOS Build"
     )
   end
 end
