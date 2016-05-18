@@ -8,7 +8,7 @@ The `init` will create the following:
 
 - A fastlane directory within your project directory
   - fastlane/Fastfile, which stores your deployment pipelines (lanes)
-  - fastelane/Appfile, which stores your Apple ID and Bundle ID
+  - fastlane/Appfile, which stores your Apple ID and Bundle ID
 
 If you're looking for your Crashlytics Beta API key and build secret, select your org on the [organizations settings page](https://www.fabric.io/settings/organizations), and click on the API key and build secret links right underneath your org’s name.
 In this example, the API key and build secret are hardcoded in the Fastfile; refer to this [guide](https://github.com/fastlane/setups/blob/master/Keys.md) for best practices regarding managing your keys.
