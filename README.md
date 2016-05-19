@@ -67,7 +67,7 @@ platform :ios do
     gym(scheme: "Release")
 
     # Distribute via Crashlytics
-    crashlytics(crashlytics_path: "./Crashlytics.framework/submit",
+    crashlytics(crashlytics_path: "./Crashlytics.framework/submit", # "./Pods/Crashlytics" if using Cocoapods
                 notes: changelog)
 
     # Post Slack notification
